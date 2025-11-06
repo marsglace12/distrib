@@ -1,0 +1,936 @@
+{
+  "_agro_default_fight": {
+    "mode": "sequence",
+    "steps": [
+      {
+        "type": "end-turn"
+      },
+      {
+        "type": "end-turn"
+      },
+      {
+        "type": "end-turn"
+      },
+      {
+        "type": "right-click",
+        "img": "tremblement.png",
+        "wait": 0.4,
+        "optional": true
+      },
+      {
+        "type": "right-click",
+        "img": "vent_empoisonne.png",
+        "wait": 0.4,
+        "optional": true
+      },
+      {
+        "type": "right-click",
+        "img": "puissance_sylvestre.png",
+        "wait": 0.4,
+        "optional": true
+      },
+      {
+        "type": "end-turn"
+      }
+    ]
+  },
+  "_bank_return": {
+    "steps": [
+      {
+        "type": "ensemble",
+        "img": "bonta.png",
+        "wait": 0.1
+      },
+      {
+        "type": "wait",
+        "duration": 3.0
+      },
+      {
+        "type": "right-click",
+        "pos": [
+811, 309
+        ],
+        "wait": 0.2
+      },
+      {
+        "type": "wait",
+        "duration": 2.0
+      },
+      {
+        "type": "click",
+        "pos": [
+663, 204
+        ],
+        "wait": 0.2
+      },
+      {
+        "type": "wait",
+        "duration": 2.0
+      },
+      {
+        "type": "click",
+        "pos": [
+674, 291
+        ],
+        "wait": 0.2
+      },
+      {
+        "type": "key",
+        "key": "e",
+        "duration": 2.0,
+        "wait": 0.2
+      },
+      {
+        "type": "click",
+        "pos": [
+846, 304        ],
+        "wait": 0.2
+      },
+       {
+        "type": "wait",
+        "duration": 2
+      },
+      {
+        "type": "right-click",
+        "pos": [
+957, 265
+        ],
+        "wait": 0.2
+      },
+      {
+        "type": "wait",
+        "duration": 2
+      },
+      {
+        "type": "click",
+        "pos": [
+538, 414
+        ],
+        "wait": 0.2
+      },
+      {
+        "type": "wait",
+        "duration": 2
+      },
+      {
+        "type": "click",
+        "pos": [
+1085, 261
+        ],
+        "wait": 0.2
+      },
+      {
+        "type": "wait",
+        "duration": 2
+      },
+      {
+        "type": "click",
+        "pos": [
+1257, 262
+        ],
+        "wait": 0.2
+      },
+      {
+        "type": "wait",
+        "duration": 2
+      },
+      {
+        "type": "click",
+        "pos": [
+1229, 476
+        ],
+        "wait": 0.2
+      },
+      {
+        "type": "wait",
+        "duration": 2
+      },
+      {
+        "type": "click",
+        "pos": [
+1117, 263
+        ],
+        "wait": 0.2
+      },
+      {
+        "type": "wait",
+        "duration": 1
+      },
+      {
+        "type": "click",
+        "pos": [
+1256, 263
+        ],
+        "wait": 0.2
+      },
+      {
+        "type": "wait",
+        "duration": 1
+      },
+      {
+        "type": "click",
+        "pos": [
+1201, 468
+        ],
+        "wait": 0.2
+      },
+      {
+        "type": "wait",
+        "duration": 1
+      },
+      {
+        "type": "click",
+        "pos": [
+1263, 230
+        ],
+        "wait": 0.2
+      },
+      {
+        "type": "wait",
+        "duration": 1
+      },
+      {
+        "type": "ensemble",
+        "img": "rappel.png",
+        "wait": 0.3
+      }
+    ]
+  },
+  "room_zaap": {
+    "action": "sequence-interruptible",
+    "block_after": 2,
+    "steps": [
+      {
+        "type": "click",
+        "pos": [
+781, 124
+        ],
+        "wait": 0.3
+      },
+      {
+        "type": "wait",
+        "duration": 1.5
+      },
+      {
+        "type": "click",
+        "pos": [
+1257, 431
+        ],
+        "wait": 0.3
+      },
+      {
+        "type": "wait",
+        "duration": 2.5
+      },
+      {
+        "type": "click",
+        "pos": [
+1257, 296
+        ],
+        "wait": 0.3
+      },
+      {
+        "type": "wait",
+        "duration": 3
+      },
+      {
+        "type": "click",
+        "pos": [
+1253, 467
+        ],
+        "wait": 0.3
+      },
+      {
+        "type": "wait",
+        "duration": 3
+      },
+      {
+        "type": "click",
+        "pos": [
+682, 321
+        ],
+        "wait": 0.5
+      },
+      {
+        "type": "click",
+        "pos": [
+705, 336
+        ],
+        "wait": 0.5
+      },
+      {
+        "type": "click",
+        "pos": [
+542, 490
+        ],
+        "wait": 0.5
+      }
+    ]
+  },
+  "room_0": {
+    "action": "sequence-interruptible",
+    "block_after": 2,
+    "steps": [
+      {
+        "type": "click",
+        "pos": [
+          915, 640
+        ],
+        "wait": 0.3
+      },
+      {
+        "type": "wait",
+        "duration": 1.0
+      },
+      {
+        "type": "click",
+        "pos": [
+918, 642
+        ],
+        "wait": 0.3
+      },
+      {
+        "type": "wait",
+        "duration": 1.0
+      },
+      {
+        "type": "click",
+        "pos": [
+986, 643
+        ],
+        "wait": 0.3
+      },
+      {
+        "type": "wait",
+        "duration": 1.0
+      },
+      {
+        "type": "click",
+        "pos": [
+372, 435
+        ],
+        "wait": 0.3
+      },
+      {
+        "type": "wait",
+        "duration": 1.0
+      },
+      {
+        "type": "click",
+        "pos": [
+680, 322
+        ],
+        "wait": 0.5
+      },
+            {
+        "type": "wait",
+        "duration": 1.0
+      },
+      {
+        "type": "click",
+        "pos": [
+708, 339
+        ],
+        "wait": 0.5
+      },
+            {
+        "type": "wait",
+        "duration": 1.0
+      },
+      {
+        "type": "click",
+        "pos": [
+557, 494
+        ],
+        "wait": 0.5
+      }
+    ]
+  },
+  "room_1": {
+    "action": "fight",
+    "ensemble": "ensemble_distance.png",
+    "arrival_pos": [
+712, 395
+    ],
+    "arrival_wait": 0.3,
+    "placement": {
+      "pos": [
+551, 547
+      ],
+      "wait": 0.5
+    },
+    "fight": {
+      "mode": "sequence",
+      "my_turn_min": 0.85,
+      "steps": [
+        {
+          "type": "click",
+          "pos": [
+716, 468
+          ],
+          "wait": 0.5
+        },
+        {
+          "type": "end-turn"
+        },
+        {
+          "type": "click",
+          "img": "tremblement.png",
+          "wait": 0.5
+        },
+        {
+          "type": "click",
+          "pos": [
+784, 431
+          ],
+          "wait": 0.5
+        },
+        {
+          "type": "right-click",
+          "img": "puissance_sylvestre.png",
+          "wait": 0.5
+        },
+        {
+          "type": "end-turn"
+        }
+      ]
+    }
+  },
+  "room_2": {
+    "action": "fight",
+    "arrival_pos": [
+714, 400
+    ],
+    "placement": {
+      "pos": [
+545, 554      ],
+      "wait": 0.5
+    },
+    "fight": {
+      "mode": "sequence",
+      "my_turn_min": 0.85,
+      "steps": [
+        {
+          "type": "click",
+          "pos": [
+714, 467
+          ],
+          "wait": 0.5
+        },
+        {
+          "type": "click",
+          "img": "tremblement.png",
+          "wait": 0.5
+        },
+        {
+          "type": "click",
+          "pos": [
+781, 431
+          ],
+          "wait": 0.5
+        },
+        {
+          "type": "end-turn"
+        }
+      ]
+    }
+  },
+  "room_3": {
+    "action": "fight",
+    "arrival_pos": [
+      747,
+      379
+    ],
+    "placement": {
+      "pos": [
+811, 415      ],
+      "wait": 0.5
+    },
+    "fight": {
+      "mode": "sequence",
+      "my_turn_min": 0.85,
+      "steps": [
+        {
+          "type": "click",
+          "img": "tremblement.png",
+          "wait": 0.5
+        },
+        {
+          "type": "click",
+          "pos": [
+781, 434          ],
+          "wait": 0.5
+        },
+        {
+          "type": "right-click",
+          "img": "vent_empoisonne.png",
+          "wait": 0.5
+        },
+        {
+          "type": "end-turn"
+        }
+      ]
+    }
+  },
+  "room_4": {
+    "action": "fight",
+    "arrival_pos": [
+1020, 516
+    ],
+    "placement": {
+      "pos": [
+789, 504
+      ],
+      "wait": 0.5
+    },
+    "fight": {
+      "mode": "sequence",
+      "my_turn_min": 0.9,
+      "steps": [
+                {
+          "type": "click",
+          "pos": [
+818, 480
+          ],
+          "wait": 0.5
+        },
+        {
+          "type": "end-turn"
+        },
+        {
+          "type": "right-click",
+          "img": "tremblement.png",
+          "wait": 0.5
+        },
+        {
+          "type": "right-click",
+          "img": "vent_empoisonne.png",
+          "wait": 0.5
+        },
+        {
+          "type": "end-turn"
+        }
+      ]
+    }
+  },
+  "room_5": {
+    "action": "fight",
+    "arrival_pos": [
+680, 349
+    ],
+    "placement": {
+      "pos": [
+646, 328
+      ],
+      "wait": 0.5
+    },
+    "fight": {
+      "mode": "sequence",
+      "my_turn_min": 0.85,
+      "steps": [
+        {
+          "type": "click",
+          "pos": [
+814, 381
+          ],
+          "wait": 0.5
+        },
+        {
+          "type": "right-click",
+          "img": "tremblement.png",
+          "wait": 0.5
+        },
+        {
+          "type": "right-click",
+          "img": "vent_empoisonne.png",
+          "wait": 0.5
+        },
+        {
+          "type": "end-turn"
+        }
+      ]
+    }
+  },
+  "room_6": {
+    "action": "fight",
+    "arrival_pos": [
+917, 330
+    ],
+    "placement": {
+      "pos": [
+550, 312
+      ],
+      "wait": 0.5
+    },
+    "fight": {
+      "mode": "sequence",
+      "my_turn_min": 0.85,
+      "steps": [
+        {
+          "type": "click",
+          "pos": [
+712, 400
+          ],
+          "wait": 1
+        },
+        {
+          "type": "click",
+          "img": "tremblement.png",
+          "wait": 1
+        },
+        {
+          "type": "click",
+          "pos": [
+820, 452
+          ],
+          "wait": 1
+        },
+        {
+          "type": "right-click",
+          "img": "vent_empoisonne.png",
+          "wait": 0.5
+        },
+        {
+          "type": "right-click",
+          "img": "puissance_sylvestre.png",
+          "wait": 0.5
+        },
+        {
+          "type": "end-turn"
+        }
+      ]
+    }
+  },
+  "room_7": {
+    "action": "sequence",
+    "steps": [
+      {
+        "type": "click",
+        "pos": [
+474, 243
+        ],
+        "wait": 0.3
+      },
+      {
+        "type": "wait",
+        "duration": 3
+      }
+    ]
+  },
+  "room_8": {
+    "action": "sequence",
+    "steps": [
+      {
+        "type": "click",
+        "pos": [
+1155, 242
+        ],
+        "wait": 0.3
+      },
+      {
+        "type": "wait",
+        "duration": 3
+      }
+    ]
+  },
+  "room_9": {
+    "action": "fight",
+    "arrival_pos": [
+714, 364
+    ],
+    "placement": {
+      "pos": [
+801, 432
+      ],
+      "wait": 0.5
+    },
+    "fight": {
+      "mode": "sequence",
+      "my_turn_min": 0.85,
+      "steps": [
+        {
+          "type": "end-turn"
+        },
+                {
+          "type": "click",
+          "pos": [
+818, 452          ],
+          "wait": 0.5
+        },
+        {
+          "type": "right-click",
+          "img": "tremblement.png",
+          "wait": 0.5
+        },
+        {
+          "type": "right-click",
+          "img": "vent_empoisonne.png",
+          "wait": 0.5
+        },
+        {
+          "type": "right-click",
+          "img": "puissance_sylvestre.png",
+          "wait": 0.5
+        },
+        {
+          "type": "end-turn"
+        }
+      ]
+    }
+  },
+  "room_10": {
+    "action": "sequence",
+    "steps": [
+      {
+        "type": "click",
+        "pos": [
+1154, 243
+        ],
+        "wait": 0.3
+      },
+      {
+        "type": "wait",
+        "duration": 3
+      }
+    ]
+  },
+  "room_11": {
+    "action": "sequence",
+    "steps": [
+      {
+        "type": "click",
+        "pos": [
+1154, 245
+        ],
+        "wait": 0.3
+      },
+      {
+        "type": "wait",
+        "duration": 3
+      }
+    ]
+  },
+  "room_12": {
+    "action": "sequence",
+    "steps": [
+      {
+        "type": "click",
+        "pos": [
+1156, 554
+        ],
+        "wait": 0.3
+      },
+      {
+        "type": "wait",
+        "duration": 3
+      }
+    ]
+  },
+  "room_13": {
+    "action": "fight",
+    "arrival_pos": [
+1016, 417
+    ],
+    "ensemble": "ensemble_fight.png",
+    "placement": {
+      "pos": [
+764, 416
+      ],
+      "wait": 0.5
+    },
+    "fight": {
+      "mode": "sequence",
+      "my_turn_min": 0.85,
+      "steps": [
+        {
+          "type": "right-click",
+          "img": "vent_empoisonne.png",
+          "wait": 0.5
+        },
+        {
+          "type": "right-click",
+          "img": "tremblement.png",
+          "wait": 0.5
+        },
+        {
+          "type": "right-click",
+          "img": "ronce_multiple.png",
+          "wait": 0.5
+        },
+        {
+          "type": "end-turn"
+        }
+      ]
+    }
+  },
+  "room_14": {
+    "action": "fight",
+    "arrival_pos": [
+1021, 518
+    ],
+    "ensemble": "ensemble_fight.png",
+    "placement": {
+      "pos": [
+1176, 241
+      ],
+      "wait": 0.5
+    },
+    "fight": {
+      "mode": "sequence",
+      "my_turn_min": 0.85,
+      "steps": [
+        {
+          "type": "right-click",
+          "img": "vent_empoisonne.png",
+          "wait": 0.5
+        },
+        {
+          "type": "right-click",
+          "img": "tremblement.png",
+          "wait": 0.5
+        },
+        {
+          "type": "right-click",
+          "img": "ronce_multiple.png",
+          "wait": 0.5
+        },
+        {
+          "type": "end-turn"
+        }
+      ]
+    }
+  },
+  "room_15": { 
+    "action": "fight",
+    "arrival_pos": [
+      553,
+      420
+    ],
+    "ensemble": "ensemble_fight.png",
+    "placement": {
+      "pos": [
+585, 294
+      ],
+      "wait": 0.5
+    },
+    "fight": {
+      "mode": "sequence",
+      "my_turn_min": 0.85,
+      "steps": [
+        {
+          "type": "click",
+          "pos": [
+717, 364
+          ],
+          "wait": 0.9
+        },
+        {
+          "type": "end-turn"
+        },
+        {
+          "type": "click",
+          "pos": [
+753, 379
+          ],
+          "wait": 1.5
+        },
+        {
+          "type": "right-click",
+          "img": "tremblement.png",
+          "wait": 0.5
+        },
+        {
+          "type": "right-click",
+          "img": "vent_empoisonne.png",
+          "wait": 0.5
+        },
+        {
+          "type": "right-click",
+          "img": "puissance_sylvestre.png",
+          "wait": 0.5
+        },
+        {
+          "type": "end-turn"
+        }
+      ]
+    }
+  },
+  "room_16": {
+    "action": "fight",
+    "arrival_pos": [
+712, 397
+    ],
+    "ensemble": "ensemble_fight.png",
+    "placement": {
+      "pos": [
+951, 481
+      ],
+      "wait": 0.5
+    },
+    "fight": {
+      "mode": "sequence",
+      "my_turn_min": 0.85,
+      "steps": [
+        {
+          "type": "click",
+          "pos": [
+815, 416
+          ],
+          "wait": 0.5
+        },
+        {
+          "type": "end-turn"
+        },
+        {
+          "type": "right-click",
+          "img": "tremblement.png",
+          "wait": 0.5
+        },
+        {
+          "type": "right-click",
+          "img": "vent_empoisonne.png",
+          "wait": 0.5
+        },
+        {
+          "type": "right-click",
+          "img": "puissance_sylvestre.png",
+          "wait": 0.5
+        },
+        {
+          "type": "end-turn"
+        }
+      ]
+    }
+  },
+  "room_17": {
+    "action": "sequence",
+    "is_dungeon_end": true,
+    "steps": [
+      {
+        "type": "click",
+        "pos": [
+672, 376
+        ],
+        "wait": 0.6
+      },
+      {
+        "type": "click",
+        "pos": [
+704, 394
+        ],
+        "wait": 0.5
+      },
+      {
+        "type": "click",
+        "pos": [
+551, 385
+        ],
+        "wait": 0.5
+      },
+      {
+        "type": "wait",
+        "duration": 8
+      }
+    ]
+  }
+}
