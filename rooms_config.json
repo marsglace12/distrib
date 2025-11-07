@@ -1,4 +1,7 @@
 {
+  "_discord": {
+    "webhook_url": ""
+  },
   "_agro_default_fight": {
     "mode": "sequence",
     "steps": [
@@ -313,7 +316,7 @@
       },
       {
         "type": "wait",
-        "duration": 1.0
+        "duration": 2.0
       },
       {
         "type": "click",
@@ -734,8 +737,7 @@
     "ensemble": "ensemble_fight.png",
     "placement": {
       "pos": [
-764, 416
-      ],
+772, 415      ],
       "wait": 0.5
     },
     "fight": {
